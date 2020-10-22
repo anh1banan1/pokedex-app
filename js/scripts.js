@@ -24,7 +24,12 @@ let pokemonList = [
     ]
 
     function add(pokemon) {
+        if (typeof pokemon === "object" && "name" in pokemon) {
         pokemonList.push(pokemon);
+        }
+        else {
+            console.log("That is not a pokemon.")
+        }
     }
 
     function getAll() {
