@@ -22,11 +22,21 @@ let pokemonList = [
     }
 ]
 
-for (let i = 0; i < pokemonList.length; i++) {
-    if (pokemonList[i].weight > 20) {
-        document.write(pokemonList[i].name + " (weight: " + pokemonList[i].weight + ") - Wow, that's heavy!<br>")
+// for (let i = 0; i < pokemonList.length; i++) {
+//     if (pokemonList[i].weight > 20) {
+//         document.write(pokemonList[i].name + " (weight: " + pokemonList[i].weight + ") - Wow, that's heavy!<br>")
+//     }
+//     else {
+//         document.write(pokemonList[i].name + " (weight: " + pokemonList[i].weight + ")</br>")
+//     }
+// }
+
+
+pokemonList.forEach(function (pokemon){
+    if (pokemon.weight >20) {
+        document.write(pokemon.name + "(weight: " + pokemon.weight + ") - Wow, that's heavy!<br>")
     }
     else {
-        document.write(pokemonList[i].name + " (weight: " + pokemonList[i].weight + ")</br>")
+    document.write(pokemon.name + " (weight: " + pokemon.weight + ")<br>")
     }
-}
+});
