@@ -1,3 +1,4 @@
+let pokemonRepository = (function () {
 let pokemonList = [
     {
         name: 'Chikorita',
@@ -20,7 +21,17 @@ let pokemonList = [
         weakness: ['grass', 'electric'],
         evolutions: ['Croconaw', 'Feraligatr']
     }
-]
+    ]
+
+    return {
+        add: function(pokemon) {
+            pokemonList.push(pokemon);
+        },
+        getAll: function() {
+            return pokemonList;
+        }
+    };
+})();
 
 // FOR LOOP
 // for (let i = 0; i < pokemonList.length; i++) {
