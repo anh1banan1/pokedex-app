@@ -1,5 +1,10 @@
+.page-header__item {
+    width: 50px;
+}
+
 .page-title {
     color: #ffcb05;
+    text-decoration: underline;
 }
 .button-class {
     background-color: #003a70;
