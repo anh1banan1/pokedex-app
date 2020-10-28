@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Pokedex App</title>
+    <link rel="icon" href="img/favicon.ico">
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <title>Pokedex App</title>
   </head>
   <body>
-      <h1 class="page-title">pokedex</h1>
-      <ul class="pokemon-list"></ul>
+      <header class="page-header">
+          <img src="img/pokeball.png" alt="pokeball picture" class="page-header__item">
+      </header>
+      <div class="main">
+        <h1 class="page-title">pokedex</h1>
+        <ul class="pokemon-list"></ul>
+      </div>
+    <script src="js/promise-polyfill.js"></script>
+    <script src="js/fetch-polyfill.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
