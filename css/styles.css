@@ -1,11 +1,15 @@
+body {
+  background-color: #fceaa5;
+}
+
 .navbar {
   background-color: #ffcb05;
 }
 
 .pokemon-list {
-    list-style-type: none;
-    margin-top: 60px;
-    text-align: center;
+  margin-top: 60px;
+  list-style-type: none;
+  text-align: center;
 }
 
 .btn-primary {
@@ -21,10 +25,9 @@
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: white;
+    background-color: #81c0fa;
     color: black;
     border: 2px solid #003a70;
-    border-radius: 15px;
 }
     
 .modal-header {
@@ -45,4 +48,13 @@
     padding: 15px;
     width: 100%;
     text-align: center;
+}
+
+h2 {
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+p {
+  margin-left: 50px;
 }
