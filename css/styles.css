@@ -1,17 +1,14 @@
-.page-header__item {
-    width: 50px;
-}
-
-.poke-title {
-    color: #ffcb05;
-    text-decoration: underline;
+.navbar {
+  background-color: #ffcb05;
 }
 
 .pokemon-list {
     list-style-type: none;
+    margin-top: 60px;
+    text-align: center;
 }
 
-.button-class {
+.btn-primary {
     background-color: #003a70;
     border: none;
     color: white;
@@ -27,57 +24,25 @@
     background-color: white;
     color: black;
     border: 2px solid #003a70;
-  }
+    border-radius: 15px;
+}
+    
+.modal-header {
+  background-color: #003a70;
+  text-align: center;
+}
 
-  #modal-container {
-    display: none;
-  }
-  
-  #modal-container.is-visible {
-    position: fixed;
-    padding: 20px;
-    box-sizing: border-box;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    
-    /* to show it above other content */
-    z-index: 999; 
-    
-    /* to allow scrolling if the screen is not high enough*/
-    overflow: auto; 
-    
-    /* this is used to center the modal */
-    display: grid;
-    text-align: center;
-  }
-  
-  .modal {
+.modal-title {
+  color: #ffcb05;
+  text-transform: uppercase;
+}
+
+.modal-body {
     margin: auto;
     display: inline-block;
     box-sizing: border-box;
-    background: #fff;
+    background: #fceaa5;
     padding: 15px;
     width: 100%;
-    max-width: 700px;
-    text-align: left;
-  }
-  
-  .modal-close {
-    float: right;
-    -webkit-appearance: none;
-    border: 0;
-    background: none;
-    color: #777;
-    text-decoration: underline;
-  }
-  
-  .modal h1 {
-    margin-top: 0;
-  }
-  
-  .modal p {
-    margin-bottom: 0;
-  }
+    text-align: center;
+}
