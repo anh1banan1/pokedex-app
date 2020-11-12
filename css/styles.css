@@ -50,6 +50,10 @@ body {
     text-align: center;
 }
 
+.modal-footer {
+  background-color: #003a70;
+}
+
 h2 {
   margin-left: 50px;
   margin-top: 60px;
